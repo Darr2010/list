@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="list.css">
+</head>
+<body>
+	<h1>Способи підключення стилів до html-коду</h1>
+	<p>Існує 4 способи підключення стилів до html-файлу (2 в цьому файлі, і 2 в окремому файлі):</p>
+	<ol id="list3">
+		<li>Щоб стиль був підключений до html-файлу в якому знаходиться цей тег є два варіанти:
+		<ul id="list">
+			<li>Записати стилі в файлі з розширенням css. Для підключення файлу з стилями до html-файлу в тезі &lthead&gt ...&lt/head&gt треба записати тег &ltlink&gt…&lt/link&gt. Цей варіант написання стилів є найбільш правильним.</li>
+			<li>Записати стилі в файлі з розширенням css. Для підключення файлу з стилями до html-файлу в тезі &lthead&gt ...&lt/head&gt треба записати тег &ltstyle&gt…&lt/style&gt, а в ньому записати конструкцію @import.</li>
+		</ul></li>
+		<li>Щоб стиль знаходився безпосередньо в самому html-файлі можна скористатись двома варіантами:
+		<ul id="list2">
+			<li>Записати стиль в html-файлі в самому тезі через атрибут STYLE</li>
+			<li>Для не великих сайтів, що містять не багато сторінок можна записувати стилі в html-файлі в тезі &lthead&gt…&lt/head&gt через тег &ltstyle&gt…&lt/style&gt</li>
+		</ul></li>
+	</ol>
+</body>
+</html>

@@ -1,0 +1,55 @@
+#list{
+			list-style-type: square;
+			list-style-position: inside;
+			margin-left: 100pt;
+		}
+		#list2{
+			list-style-image: url("imag/R.jfif");
+			list-style-position: outside;
+			margin-left: 20pt;
+		}
+		#list3{
+			list-style-type: upper-roman;
+			margin-left: 10pt;
+			margin-top: 0px;
+		}
+		h1{
+			text-align: center;
+			font-size: 25pt;
+			font-weight: bold;
+			font-style: italic;
+			text-decoration: underline;
+			letter-spacing: 2pt;
+		}
+		p{
+			color: darkblue;
+			text-indent: 50px;
+			line-height: 1;
+			text-align: justify;
+		}
+		p{
+			padding: 40px 30px 50px 66px;
+			padding: 50px 30px;
+			padding: 20px;
+			padding-top: 50px;
+			padding-right: 30px;
+			padding-bottom: 40px;
+			padding-left: 70px;
+
+			border: solid 5px #008000;
+
+			margin: 50px;
+		}
+		h1{
+			padding-left: 45px;
+			padding-bottom: 45px;
+			padding-right: 60px;
+			padding-top: 60px;
+
+			border: dashed 3px #080080;
+
+			margin-top: 60px;
+			margin-right: 50px;
+			margin-bottom: 40px;
+			margin-left: 23px;
+		}
